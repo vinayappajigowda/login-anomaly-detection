@@ -1,0 +1,20 @@
+{
+  "baseline_days": 14,
+  "rules": {
+    "brute_force_failures": 10,
+    "brute_force_window_min": 10,
+    "spray_distinct_users": 10,
+    "spray_window_min": 30,
+    "travel_min_km": 500,
+    "travel_max_kmh": 900,
+    "mfa_denials": 5,
+    "mfa_window_min": 15,
+    "offhours_start": 0,
+    "offhours_end": 5
+  },
+  "model": {
+    "n_estimators": 300,
+    "baseline_alert_rate": 0.001,
+    "random_state": 0
+  }
+}

@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/
+# Real sign-in logs contain personal data and must never be committed
+data/real/
+.DS_Store
+Thumbs.db
